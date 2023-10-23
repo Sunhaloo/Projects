@@ -8,8 +8,6 @@ I am fascinated by Computers and want to learn "*everything*" about them. In add
   &#8287;&#8287;&#8287;&#8287;&#8287;
 </p>
 
-```
-This is NOT completed
-```
+**`This is not completed`**
 
 S.Sunhaloo
