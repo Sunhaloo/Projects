@@ -34,7 +34,7 @@ def display_array():
         print()
         print("Array is EMPTY")
 
-        # Displaying pointer top "location"        
+        # Displaying pointer's "location"        
         print()
         print(f"Top Pointer ---> {top}")
         print(f"Base Pointer ---> {base}")
