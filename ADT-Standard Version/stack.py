@@ -42,6 +42,7 @@ def display_array():
 
     # If array is NOT empty
     else:
+        
         # Pointer "top" becomes
         top = len(stack) -1
         # Pointer "base" stays 0
