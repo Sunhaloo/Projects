@@ -63,7 +63,7 @@ def display_array():
 
 # FUNCTION insert_value_top(BYVAL input_item: OF INTEGER)
 # Function "insert_value" will allow us to insert elements in array
-def insert_value_mine(input_item):
+def push_mine(input_item):
 
     # DECLARE array_length: OF INTEGER
     # Variable "array_length" will hold the length of array
@@ -97,7 +97,7 @@ def insert_value_mine(input_item):
 # FUNCTION insert_value(BYVAL input_item: OF INTEGER)
 # Function with identifier name "insert_value" will allow us to insert elements in array
 
-def insert_value(input_item):
+def push_value(input_item):
 
     # DECLARE array_length: OF INTEGER
     # Variable "array_length" will hold the length of array
@@ -153,7 +153,7 @@ def pop_value():
 
 # FUNCTION pop_values_mine
 # Function "pop_value_mine" will remove the last value ( added )
-def pop_values_mine():
+def pop_value_mine():
 
     # Pointer "top" will keep of index of last item in "stack"
     top = len(stack) -1
@@ -390,10 +390,10 @@ print("Inserting Values")
 print()
 
 # Inserting values individually
-insert_value(3)
-insert_value(5)
+push_value(3)
+push_value(5)
 # Value "90" will not be added to the array
-insert_value(90)
+push_value(90)
 
 print()
 print("Displaying Array After Inserting Value")
@@ -404,7 +404,7 @@ print()
 print("Removing Last Values ( Twice )")
 
 # Both of these function below will remove the last value ( added ) into array
-pop_values_mine()
+pop_value_mine()
 pop_value()
 
 print()
