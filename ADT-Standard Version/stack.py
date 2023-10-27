@@ -61,8 +61,8 @@ def display_array():
         print(f"Base Pointer ---> {base}")
         print()
 
-# FUNCTION insert_value_top(BYVAL input_item: OF INTEGER)
-# Function "insert_value" will allow us to insert elements in array
+# FUNCTION push_mine(BYVAL input_item: OF INTEGER)
+# Function "push_mine" will allow us to insert elements in array
 def push_mine(input_item):
 
     # DECLARE array_length: OF INTEGER
@@ -93,10 +93,9 @@ def push_mine(input_item):
         # "Appends" the item to the "stack"
         stack.append(input_item)
 
-# The function "insert_value" below is a better version of the above function "insert_value_top"
-# FUNCTION insert_value(BYVAL input_item: OF INTEGER)
-# Function with identifier name "insert_value" will allow us to insert elements in array
-
+# The function "push_value" below is a better version of the above function "insert_value_top"
+# FUNCTION push_value(BYVAL input_item: OF INTEGER)
+# Function with identifier name "push_mine" will allow us to insert elements in array
 def push_value(input_item):
 
     # DECLARE array_length: OF INTEGER
