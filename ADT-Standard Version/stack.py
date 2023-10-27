@@ -19,7 +19,7 @@ stack = [9, 22, 4]
 def display_array():
 
     # DECLARE x: OF INTEGER
-    # Variable "x" is a counter what will be used to display our values in "stack"
+    # Variable "x" is a counter that will be used to display our values in "stack"
 
     # If array is EMPTY
     if not stack:
