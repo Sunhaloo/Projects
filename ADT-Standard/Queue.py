@@ -19,6 +19,7 @@ queue_length = 5
 # DECLARE queue: ARRAY[4] OF INTEGER
 # Global array "queue" with length 5
 queue = []
+
 # FUNCTION display()
 # Function "display" will be used to display our array
 def display():
@@ -50,6 +51,7 @@ def display():
         print(f"Front Pointer ---> {front}")
         print(f"Rear Pointer ---> {rear}")
         print()
+
 # FUNCTION enqueue(BYVAL input_item: OF INTEGER)
 # Function "enqueue" will allow the user to enter value in the array
 def enqueue(input_item):
@@ -77,6 +79,7 @@ def enqueue(input_item):
             rear += 1
         # Inserts element into queue
         queue.append(input_item)
+
 # FUNCTION dequeue()
 # Function "dequeue" will remove the first value ( added ) into "queue"
 def dequeue():
@@ -103,6 +106,7 @@ def dequeue():
         front -= 1
         # Variable / Constant needs to decrease by 1
         queue_length -= 1
+        
 # FUNCTION specific_delete(BYVAL input_item: OF INTEGER)
 # Function "specific_delete" will allow the user to remove a "specific" element in the queue
 def specific_delete(input_item):
@@ -153,6 +157,7 @@ def specific_delete(input_item):
             print()
             print(f"{input_item} has NOT been found")
             print()
+            
 # FUNCTION bubble_sort()
 # Function "bubble_sort" will sort the array in ASCENDING ORDER
     # Ascending Order; because "binary search" needs the array in Ascending Order
@@ -188,6 +193,7 @@ def bubble_sort():
                     update = True
                     # Variable "swap" will increases by 1
                     swap += 1
+                    
 # FUNCTION insertion_sort()
 # Function "insertion_sort" will sort the array in ASCENDING ORDER
     # Ascending Order; because "binary search" needs the array to be in Ascending Order
@@ -211,6 +217,7 @@ def insertion_sort():
             y -= 1
         # If array is already sorted
         queue[y + 1] = values
+        
 # FUNCTION l_search(BYVAL search_item: OF INTEGER)
 # Function "l_search" will allow the user to search for an item in the array
 def l_search(search_item):
@@ -240,6 +247,7 @@ def display_linear(result):
         print()
         print("Value has not been found")
         print()
+        
 # FUNCTION b_search(BYVAL search_item, BYVAL array: OF INTEGER)
 # Function "binary search" will allow the user to search for a value in array
 def b_search(array, search_item):
@@ -266,6 +274,7 @@ def b_search_calc(lower, upper, queue, search_item):
         else:
             # Variable "upper" take the index just before mid
             upper = mid -1
+            
 # FUNCTION display_binary(BYVAL result: OF INTEGER)
 # Function "display_binary" will allow the user to display the result of binary search
 def display_binary(result):
@@ -281,6 +290,7 @@ def display_binary(result):
         print()
         print("Value has not been found")
         print()
+        
 # Calling Functions
 # Displaying Initial Array
 print()
