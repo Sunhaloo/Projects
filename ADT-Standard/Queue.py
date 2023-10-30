@@ -1,4 +1,7 @@
 # Queue Program Code
+
+# NOTE: The array starts at index 0
+
 # DECLARE front: OF INTEGER
 # Global pointer "front" will keep track to the first item ( added )
 global front
