@@ -1,5 +1,7 @@
 # Stack Program Code
 
+#NOTE: The array starts at index 0
+
 # DECLARE top: OF INTEGER
 # Global pointer "top" will keep track of the last item added
 global top
