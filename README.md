@@ -1,5 +1,5 @@
 # S.Sunhaloo
-Yo, I am a beginner learning to code my way into the world of Software Engineering. I have another [repo](https://www.github.com/Sunhaloo/Obsidian-Vault) where I document my *learning process*. I use ChatGPT and YouTube videos to help me learn the fundamentals of Computer Science ( *teacher here are not that good* 🙃 ).
+Yo, I am a beginner learning to code my way into the world of Software Engineering. I have another [repo](https://www.github.com/Sunhaloo/Obsidian-Vault) where I document my *learning process*. I use documentations, ChatGPT and YouTube videos to help me learn the fundamentals of Computer Science ( *teachers here are not that good* 🙃 ).
 I am fascinated by Computers and want to learn "*everything*" about them. In addition, I am a YouTube Channel called "*[S.Sunhaloo](https://www.youtube.com/channel/UCMkQZsuW6eHMhdUObLPSpwg)*" where I post myself coding and sometimes playing video games ( *because I like them* ). I hope you enjoy these fun little codes that I made.
 
 <!-- Social icons section -->
