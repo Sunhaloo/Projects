@@ -1,0 +1,7 @@
+This text has been added on the local machine using the terminal
+
+Tools used:
+
+1. Terminal (powershell)
+2. git commands
+3. Neovim

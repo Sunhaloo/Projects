@@ -10,4 +10,8 @@ I am fascinated by Computers and want to learn "*everything*" about them. In add
 
 **`This is not completed`**
 
+---
+
+This is a test; I have cloned the repo and edited this on my local machine
+
 S.Sunhaloo
