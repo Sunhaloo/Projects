@@ -1,12 +1,10 @@
-# Random Codes
+# C Codes
 
-This repository is basically me fooling around with stuff! Count it as a little practice.
+This wil where I will be keeping all my Random C Codes.
 
->This is really basic code BTW; Don't Judge!
-
-Where are the damn Codes?
-
-- Please Switch Branch and Select the Programming Language.
+>[!note]
+>There is a markdown file called [Random C Program Codes]().
+>This was where I was keeping all of my random codes before creating this branch.
 
 ---
 
