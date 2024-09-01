@@ -25,9 +25,9 @@ def main():
             - Integer
         Now, "arrays" are primitive ( in the case of Java ---> don't know for other )
         and "list" are "objects"
-        Therefore, you can do thing such as creating an array that looks like this:
-            array = ["hello", True, 4, "world", 69.69]
-        >Reason why list are not arrays
+        Therefore, you can do thing such as creating an something that looks like this:
+            list = ["hello", True, 4, "world", 69.69]
+        >Reason why list are NOT arrays
         '''
         # populate the array with list comprehension
         # starting from '2' because '0' and '1' will always be not prime
@@ -45,8 +45,8 @@ def main():
                 prime_numbers[j - 2] = None
 
         '''
-        The mistake that I was doing it iterating from 2 to square root of `n`
-        This is wrong because when it will find values such as 2, 3, 5 which
+        The mistake that I was doing was iterating from 2 to square root of `n`
+        This is wrong because when it will find values such as 2, 3, 5, ... which
         are themselves of multiples of 2, 3 and 5 ( and so on ) respectively
 
         Hence, we need to iterate from the power of `i`; for example:
@@ -74,20 +74,20 @@ def main():
             - C ( the greatest of all time ---> if you can do it in C; you can do it everywhere )
         >There are programming languages that do not start with 0
         >Like:
-        >- Lua ( why! why do you not start at 0... self-plug: https://github.com/Sunhaloo )
+        >- Lua ( why! why do you not start at 0... self-plug: https://github.com/Sunhaloo/dotfiles )
         >- MatLab ( if you consider that a programming language )
         ---
         List / Arrays starts with the value '0'
         Therefore if we are starting `i = 2` then the index will start at '2' ( instead of '0' )
         '''
 
-        # remove all none values
+        # remove all `None` values
         prime_numbers = [x for x in prime_numbers if x is not None]
 
         '''
         Similar to `range(len(array))`; we can simply to `array`
         Its like we are doing something like:
-            for index, value in enumerate(prime_numbers):
+            for index, value in enumerate(array):
                 print(f"Index = {index} | Value: {value}")
         '''
 
@@ -96,6 +96,7 @@ def main():
 
         # output the numbers in a file
         # 'x' mode; create the file if it has not been created
+        # NOTE: Therefore, don't create the output.txt file in the place you are going to run the code
         with open("output.txt", 'x') as file:
             
             # output the contents of array to the file
@@ -108,12 +109,14 @@ def main():
         print("\nPlease Enter Integer Numbers Only!!!\n")
 
 '''
-    NOTE: no need to add this
-    you have simply wrote
-    `main()` at the bottom of the file
+NOTE: no need to add this
+you can simply write
+`main()` at the bottom of the file
 '''
 
 # runs this file
 if __name__ == '__main__':
     # runs the main function
     main()
+
+# WARNING: I still need to learn about Python Virtual Enironments + Python Folder Structure
