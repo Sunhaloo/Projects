@@ -1,12 +1,8 @@
-# Random Codes
+# UNI Branch
 
-This repository is basically me fooling around with stuff! Count it as a little practice.
+This is the branch where I will be keeping the code that I have fucked up during tests, examples and more!
 
->This is really basic code BTW; Don't Judge!
-
-Where are the damn Codes?
-
-- Please Switch Branch and Select the Programming Language.
+>Place where I will keep the overall "*public*" University Codes
 
 ---
 
