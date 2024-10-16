@@ -9,7 +9,9 @@ def main():
         # create the random number
         random_number = randint(0, 99)
         # populate the array
-        random_numbers_range[random_number // 10] += 1
+        random_numbers_range[(random_number  -1)// 10] += 1
+        # NOTE: why `(random_number - 1)`? Just trace the function when
+        # `random_number = 20`; you will see why we added that `- 1`
 
     # create and populate the "histogram" with zeros
     histogram = []
